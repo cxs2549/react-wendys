@@ -11,6 +11,7 @@ const GlobalStyles = createGlobalStyle`
         --brandBlue: #154C72;
         --brandRed: #9F1B19;
         --borderColor: #EBEBEB;
+        --maxWidth: 1150px;
     }
     body {
         font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;

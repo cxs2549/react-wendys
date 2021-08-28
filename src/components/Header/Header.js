@@ -28,6 +28,9 @@ const StyledHeader = styled.header`
       color: var(--brandRed);
       font-size: 95%;
     }
+    &:hover {
+      filter: brightness(1.2);
+    }
   }
 
   #wrapper {

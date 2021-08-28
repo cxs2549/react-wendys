@@ -18,6 +18,9 @@ const GlobalStyles = createGlobalStyle`
         -webkit-font-smoothing: antialiased;
 	    -moz-osx-font-smoothing: grayscale;
     }
+    main {
+        margin-top: 70px;
+    }
     button, svg, a {
         cursor: pointer;
     }

@@ -2,6 +2,7 @@ import GlobalStyles from './globalStyles'
 import Header from './components/Header/Header'
 import Footer from "./components/Footer/Footer"
 import styled from 'styled-components'
+import Home from './views/Home/Home'
 
 const StyledApp = styled.div`
   display: flex;
@@ -15,6 +16,9 @@ const App = () => {
     <StyledApp>
       <GlobalStyles />
       <Header />
+      <main>
+        <Home />
+      </main>
       <Footer />
     </StyledApp>
   )
